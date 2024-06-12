@@ -11,3 +11,5 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "scratches"
+
+include(":json-input")
