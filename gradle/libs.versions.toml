@@ -1,9 +1,13 @@
 [versions]
 jackson = "2.17.1"
 kotlin = "1.9.22"
+spring = "6.1.9"
 
 [libraries]
 jackson-module-kotlin = { module = "com.fasterxml.jackson.module:jackson-module-kotlin", version.ref = "jackson"}
+jackson-core-databind = { module = "com.fasterxml.jackson.core:jackson-databind", version.ref = "jackson"}
+spring-core = { module = "org.springframework:spring-core", version.ref = "spring" }
+spring-messaging = { module = "org.springframework:spring-messaging", version.ref = "spring" }
 
 [plugins]
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
