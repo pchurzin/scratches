@@ -7,6 +7,8 @@ spring = "6.1.9"
 jackson-module-kotlin = { module = "com.fasterxml.jackson.module:jackson-module-kotlin", version.ref = "jackson"}
 jackson-core-databind = { module = "com.fasterxml.jackson.core:jackson-databind", version.ref = "jackson"}
 spring-core = { module = "org.springframework:spring-core", version.ref = "spring" }
+spring-context = { module = "org.springframework:spring-context", version.ref = "spring" }
+spring-tx = { module = "org.springframework:spring-tx", version.ref = "spring" }
 spring-messaging = { module = "org.springframework:spring-messaging", version.ref = "spring" }
 
 [plugins]
